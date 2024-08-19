@@ -7,10 +7,9 @@ public class C07TypeConversion {
         int b = (int) a; // 기본타입끼리의 캐스팅 가능
 
         //
-        //   String c = (String) a; //
+//        String c = (String) a; //
         String d = "3";
-        //   int e = (int) d; // 기본타입과 참조타입간의 형변환 x
-
+//        int e = (int) d; // 기본타입과 참조타입간의 형변환 x
 
     }
 }
