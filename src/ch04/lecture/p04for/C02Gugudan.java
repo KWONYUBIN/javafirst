@@ -7,7 +7,7 @@ public class C02Gugudan {
         int i = 1;
 
         while (i <= 9) {
-            System.out.println(STR."2 x\{i} = /{2 * i}");
+            System.out.println("2 x" + i + " = /{2 * i}");
 
         }
 

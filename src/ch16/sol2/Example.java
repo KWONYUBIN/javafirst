@@ -20,5 +20,5 @@ public class Example {
         int min = maxOrMin((a, b) -> a < b ? a : b);
         System.out.println("최소값 = " + min);
     }
-
+// 이건 무엇일까요
 }

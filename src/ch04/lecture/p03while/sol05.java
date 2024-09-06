@@ -7,7 +7,7 @@ public class sol05 {
                 // System.out.println(STR."(\{x}, \{y}");
                 int r = (4 * x) + (5 * y);
                 if (r == 60) {
-                    System.out.println(STR."(\{x}, \{y})");
+                    System.out.println("(" + x + ", " + y + ")");
                 }
             }
         }

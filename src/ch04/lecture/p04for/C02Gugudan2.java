@@ -11,7 +11,7 @@ public class C02Gugudan2 {
 
         if (2 <= dan && dan <= 9) {
             for (int i = 1; i <= 9; i++) {
-                System.out.println(STR."\{dan} X \{i} = \{dan * i}");
+                System.out.println(dan + " X " + i + " = " + dan * i);
             }
         } else {
             System.out.println("잘 못 입력하였습니다.");

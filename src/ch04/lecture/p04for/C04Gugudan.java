@@ -5,9 +5,9 @@ public class C04Gugudan {
 // 홀수단만 출력
         // 3, 5, 7, 9 단 만
         for (int a = 3; a <= 9; a += 2) {
-            System.out.println(STR."\{a}단 *****************");
+            System.out.println(a + "단 *****************");
             for (int b = 1; b <= 9; b++) {
-                System.out.println(STR."\{a} x \{b} = \{a * b}");
+                System.out.println(a + " x " + b + " = " + a * b);
 
 
             }

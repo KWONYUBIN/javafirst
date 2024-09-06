@@ -21,7 +21,7 @@ public class ArrayCreateByValuelistExample1 {
     public static void printItem(int[] scores) {
 
         for (int i = 0; i < scores.length; i++) {
-            System.out.println(STR."score[\{i}]: \{scores[i]}");
+            System.out.println("score[" + i + "]: " + scores[i]);
         }
     }
 }

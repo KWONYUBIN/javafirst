@@ -12,7 +12,7 @@ public class C02Scanner {
         System.out.print("나이>");
         String age = scanner.nextLine();
 
-        String desc = (STR."\{name}님의 나이는 \{age}입니다.");
+        String desc = (name + "님의 나이는 " + age + "입니다.");
         System.out.println(desc);
     }
 }
