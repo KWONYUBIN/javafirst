@@ -1,22 +1,20 @@
 package ch13.sol2;
 
-public class Container<S, I> {
-    private S Key;
-    private I Value;
+public class Container<T, U> {
+    private T key;
+    private U value;
 
-    public S getKey() {
-        return this.Key;
+    public void set(T key, U value) {
+        this.key = key;
+        this.value = value;
     }
 
-    public void setKey(S key) {
-        this.Key = key;
+    public T getKey() {
+        return key;
     }
 
-    public I getValue() {
-        return this.Value;
-    }
-
-    public void setValue(I value) {
-        this.Value = value;
+    public U getValue() {
+        return value;
     }
 }
+
